@@ -36,5 +36,9 @@ player.prototype.winnerCheck=function(){
   }
 }
 player.prototype.newGame= function(){
-  
+  this.roll=0;
+  this.tempscore=0;
+  this.totalscore=0;
+  this.plaerName="";
 }
+var clearValues=function
