@@ -98,3 +98,10 @@ $(document).ready(function(){
     $("#die-roll-1").empty();
     player1.winnerCheck();
   });
+  $("button#player2-hold").click(function(event){
+    player2.hold();
+    $("#total-score-2").text(player2.totalscore);
+    $("#round-total-2").empty();
+    $("#die-roll-2").empty();
+    player2.winnerCheck();
+  });
