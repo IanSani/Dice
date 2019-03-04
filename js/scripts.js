@@ -48,7 +48,7 @@ var clearValues=function(){
 
 //user interface logic
 $(document).ready(function(){
-  $("button#start").click(function(event){
+  $("button#Engage").click(function(event){
    player1 = new Player(true);
    player2 =  new Player(false);
    $(".player-console").show();
@@ -64,7 +64,7 @@ $(document).ready(function(){
    player2.playerName=player2Name;
 
  });
- $("button#new-game").click(function(event){
+ $("button#start-game").click(function(event){
    $(".player-console").hide();
    clearValues();
    player1.newGame();
