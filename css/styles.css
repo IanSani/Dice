@@ -7,5 +7,7 @@ h1{
   text-align: center;
 }
 .jumbotron{
-  background-color:
+  background-image: url("../images/dice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
