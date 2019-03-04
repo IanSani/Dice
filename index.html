@@ -18,6 +18,12 @@
               <input required class="player1Name form-control" type="text">
             </div>
           </form>
+          <form id="player-2">
+            <div class="form-group">
+              <label for="player2Name">Player 2 Name:</label>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
           <button id="Engage" class="btn-info btn">Engage</button>
       </div>
 
@@ -33,6 +39,15 @@
               <p>Session Total:<span id="session-total-1"></span></p>
               <p>Total score:<span id="total-score-1"></span></p>
             </div>
+
+            <div class="col-md-6">
+              <h2>Player Two<span id="player2Name"></span></h2>
+                <button id="player2-roll" class="btn-success btn">Roll</button>
+                <button id="player2-hold" class="btn-success btn">Hold</button>
+                  <h2>Dice Roll:<span id="die-roll-2"></span></h2>
+                    <p>Session Total:<span id="session-total-2"></span></p>
+                    <p>Total Score:<span id="total-score-2"></span></p>
+                  </div>
       </div>
     </body>
     </html>
