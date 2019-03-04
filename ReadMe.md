@@ -15,7 +15,18 @@ User only requires access to the internet and a web browser.
 
 ## Known Bugs
 
-THe application as at now has no Bugs that i know of, if you encounter any please feel free to contact me
+The application as at now has no Bugs that i know of, if you encounter any please feel free to contact me.
+Contact details can be found at the support and contact area.
+
+## Behaviour Driven Development
+
+|INPUT|OUTPUT|
+|-----|------|
+|Player rolls the Dice| Dice result is given out|
+|Player two also rolls the Dice| The result is also given out|
+|When a player rolls a dice and gets 1,the result is zero and it directs to next player|Next player roll the
+dice|
+
 
 ## Technologies Used
 
