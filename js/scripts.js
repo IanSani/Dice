@@ -6,7 +6,7 @@ var throwdice= function (){
   return Math.floor(6*Math.random())+1;
 }
 
-function player(turn){
+function Player(turn){
   this.roll=0;
   this.tempscore=0;
   this.totalscore=0;
@@ -14,7 +14,7 @@ function player(turn){
   this.playerName;
 }
 //checking for player 1
-player.prototype.rollone=function(){
+Player.prototype.rollone=function(){
   if(this.roll===1){
     this.tempscore=0;
     alert("Oooops"+ this.playerName +", you rolled a 1! Next Player")
@@ -27,15 +27,15 @@ player.prototype.rollone=function(){
 Player.prototype.hold= function(){
   this.totalscore+= this.tempscore;
   this.tempscore=0;
-  alert(this.playerName+ " TImes up, next player);
+  alert(this.playerName+ " Times up, next player")
 }
-// check for 50!
-player.prototype.winnerCheck=function(){
+// check for 100!
+Player.prototype.winnerCheck=function(){
   if(this.totalscore>=100){
-    alert(this.playerName + " You won!"")
+    alert(this.playerName + " You won!")
   }
 }
-player.prototype.startGame= function(){
+Player.prototype.startGame= function(){
   this.roll=0;
   this.tempscore=0;
   this.totalscore=0;
