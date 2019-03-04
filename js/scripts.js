@@ -39,7 +39,7 @@ player.prototype.newGame= function(){
   this.roll=0;
   this.tempscore=0;
   this.totalscore=0;
-  this.plaerName="";
+  this.playerName="";
 }
 var clearValues=function(){
   $(".player1Name").val("");
@@ -69,7 +69,7 @@ $(document).ready(function(){
    clearValues();
    player1.newGame();
    player2.newGame();
-   $("#round-total-1").empty();
+   $("#session-total-1").empty();
    $("#total-score-1").empty();
    $("#die-roll-1").empty();
    $("#round-total-2").empty();
