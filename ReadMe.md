@@ -1,8 +1,9 @@
 # PIG DICE
 
-#### {Brief description of application}, 4-03-2019
+#### Date of Current Version , 4-03-2019
 
-#### By Ian Sani
+#### Contributors
+Ian Sani
 
 ## Description
 
@@ -38,5 +39,5 @@ For any issues or questions concerning the app you can reach me though the follo
 
 ### License
 
-_{Determine the license under which this application can be used.  See below for more details on licensing.}_
-Copyright (c) {year} **{List of contributors or company name}**
+The Application is under MIT License and hence all copyrights involved with it are applicable_
+Copyright 2019 By Ian Sani
