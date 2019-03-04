@@ -23,3 +23,18 @@ player.prototype.rollone=function(){
     this.tempscore+= this.roll;
   }
 }
+// section for hold!
+Player.prototype.hold= function(){
+  this.totalscore+= this.tempscore;
+  this.tempscore=0;
+  alert(this.playerName+ " TImes up, next player);
+}
+// check for 50!
+player.prototype.winnerCheck=function(){
+  if(this.totalscore>=50){
+    alert(this.playerName + " You won!"")
+  }
+}
+player.prototype.newGame= function(){
+  
+}
